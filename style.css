@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ff99cc, #ffccff);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+/* Header dengan Kotak */
+header {
+  background-color: #ff99cc; /* Merah muda pastel */
+  color: white;
+  padding: 30px; /* Memberikan ruang di dalam header */
+  text-align: center;
+  border: 3px solid #ffccff; /* Garis border ungu muda di sekitar header */
+  border-radius: 15px; /* Membuat sudut-sudut border menjadi bulat */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Efek bayangan di sekitar header */
+  margin: 20px; /* Menambahkan jarak dari elemen lain di luar header */
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 0 15px; /* Jarak antar link navigasi */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Memberikan efek saat hover */
+}
+
+  
+  /* Main Content Styling */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .login-box,
+  .register-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #663399;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    border-color: #663399;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 51, 153, 0.5);
+  }
+  
+  button.btn {
+    width: 100%;
+    background: #663399;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button.btn:hover {
+    background: #551a8b;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  

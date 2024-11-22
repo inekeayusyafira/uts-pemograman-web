@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Utama</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Warna tema seragam */
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #ff99cc, #ffccff); /* Warna pastel: merah muda ke ungu */
+      color: #4a4a4a; /* Warna teks */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #ff99cc; /* Merah muda pastel */
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 5px solid #ffccff; /* Aksen ungu muda */
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 10px; /* Spasi dalam tautan */
+      border: 2px solid white; /* Border putih */
+      border-radius: 5px; /* Membuat sudut tumpul */
+      transition: background-color 0.3s, color 0.3s; /* Efek transisi */
+    }
+
+    nav a:hover {
+      background-color: white;
+      color: #ff99cc; /* Warna merah muda pastel saat hover */
+    }
+
+    .container .card {
+      background-color: rgba(255, 255, 255, 0.9);
+      border: 1px solid #ffccff; /* Border ungu muda */
+      color: #4a4a4a; /* Warna teks */
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .container .card h4 {
+      color: #ff6699; /* Aksen merah muda */
+    }
+
+    footer {
+      background-color: #ff99cc; /* Warna pastel */
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: auto;
+      border-top: 5px solid #ffccff; /* Aksen ungu */
+    }
+  </style>
+</head>
+<body>
+  
+<header>
+  <h1>Novelin Aja</h1>
+  <p>"Menciptakan Cerita, Menyentuh Hati."</p>
+  <p>By Ineke Ayu Syafira</p>
+  <nav>
+    <a href="login.html">Login</a>
+    <a href="registrasi.html">Registrasi</a>
+    <a href="menu.html">Menu Utama</a>
+  </nav>
+</header>
+
+  <main class="container my-5">
+    <div class="row">
+      <!-- Profil Perusahaan -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <h4>Profil Perusahaan</h4>
+          <p><strong>Novelin Aja</strong> adalah platform digital yang menyediakan ribuan novel dari berbagai genre. Kami hadir untuk memberikan pengalaman membaca yang menyenangkan bagi para pembaca, serta memberikan ruang kreatif bagi para penulis untuk berbagi karya mereka.</p>
+          <p><strong>Visi:</strong> Menjadi platform terkemuka untuk membaca dan menulis cerita di seluruh dunia.</p>
+          <p><strong>Misi:</strong> Menghubungkan pembaca dengan penulis dan menciptakan komunitas kreatif yang saling mendukung.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <h4>Layanan Kami</h4>
+          <ul>
+            <li>Koleksi ribuan novel dan cerita pendek dari berbagai genre.</li>
+            <li>Platform untuk penulis berbakat mempublikasikan karya mereka.</li>
+            <li>Komunitas pembaca aktif dengan fitur diskusi dan ulasan cerita.</li>
+            <li>Fitur personalisasi: Rekomendasi cerita sesuai minat pembaca.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <h4>Kutipan Inspiratif</h4>
+          <p>"Membaca adalah jendela dunia." - Anonim</p>
+          <p>"Setiap halaman adalah awal dari petualangan baru." - Novelin</p>
+          <p>"Kisah Anda adalah harta yang layak untuk dibagikan." - Tim Novelin</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    &copy; 2024 Novelin Aja | Designed by 22552011084_Ineke Ayu Syafira_TIF 22 CID
+  </footer>
+</body>
+</html>

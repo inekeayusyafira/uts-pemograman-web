@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novelin - Registrasi</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Styling untuk header dan navbar */
+    header {
+      background-color: #ff99cc; /* Merah muda pastel */
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 5px solid #ffccff; /* Aksen ungu muda */
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 10px; /* Spasi dalam tautan */
+      border: 2px solid white; /* Border putih */
+      border-radius: 5px; /* Membuat sudut tumpul */
+      transition: background-color 0.3s, color 0.3s; /* Efek transisi */
+    }
+
+    nav a:hover {
+      background-color: white;
+      color: #ff99cc; /* Warna merah muda pastel saat hover */
+    }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Novelin Aja</h1>
+    <p>"Menciptakan Cerita, Menyentuh Hati."</p>
+    <p>By Ineke Ayu Syafira</p>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main class="container d-flex">
+    <div class="register-box">
+      <h2>Registrasi</h2>
+      <form id="registerForm">
+        <div class="form-group">
+          <label for="name">Nama Lengkap</label>
+          <input type="text" id="name" class="form-control" placeholder="Masukkan nama lengkap" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Nomor HP</label>
+          <input type="tel" id="phone" class="form-control" placeholder="Masukkan nomor HP" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="Masukkan email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Kata Sandi</label>
+          <input type="password" id="password" class="form-control" placeholder="Masukkan kata sandi" required>
+        </div>
+        <button type="submit" class="btn">Daftar</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2024 Novelin Aja | Designed by 22552011084_Ineke Ayu Syafira_TIF 22 CID
+  </footer>
+  <script>
+    document.getElementById('registerForm').addEventListener('submit', function (e) {
+      e.preventDefault(); // Mencegah form mengirimkan data secara default
+
+      // Menampilkan notifikasi sukses
+      alert('Registrasi berhasil! Anda akan diarahkan ke halaman login.');
+
+      // Mengarahkan ke halaman login
+      window.location.href = 'login.html';
+    });
+  </script>
+</body>
+</html>
